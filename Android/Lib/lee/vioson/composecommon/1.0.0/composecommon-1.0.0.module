@@ -1,0 +1,510 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "lee.vioson",
+    "module": "composecommon",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "lee.vioson",
+          "module": "lyftoast",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "lee.vioson",
+          "module": "uikit",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "lee.vioson",
+          "module": "commonutils",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-livedata",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.4.1"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-swiperefresh",
+          "version": {
+            "requires": "0.17.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-insets",
+          "version": {
+            "requires": "0.17.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-systemuicontroller",
+          "version": {
+            "requires": "0.17.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-pager",
+          "version": {
+            "requires": "0.17.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-pager-indicators",
+          "version": {
+            "requires": "0.17.0"
+          }
+        },
+        {
+          "group": "io.coil-kt",
+          "module": "coil-compose",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-fragment-ktx",
+          "version": {
+            "requires": "2.4.1"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-ui-ktx",
+          "version": {
+            "requires": "2.4.1"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.5.0-alpha03"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-navigation-animation",
+          "version": {
+            "requires": "0.16.1"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-dynamic-features-fragment",
+          "version": {
+            "requires": "2.4.1"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-preferences",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "io.github.shenzhen2017",
+          "module": "compose-refreshlayout",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.paging",
+          "module": "paging-runtime",
+          "version": {
+            "requires": "3.1.1"
+          }
+        },
+        {
+          "group": "androidx.paging",
+          "module": "paging-compose",
+          "version": {
+            "requires": "1.0.0-alpha14"
+          }
+        },
+        {
+          "group": "com.chargemap.compose",
+          "module": "numberpicker",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "composecommon-1.0.0.aar",
+          "url": "composecommon-1.0.0.aar",
+          "size": 588379,
+          "sha512": "7c9056863f48fa576388356db4298dd2f098594878da905472cfa1b49fbcf589514f7b436101b762817d35a5666f03cff4df244680e146326f4cb98b2787dd77",
+          "sha256": "72189ca00ab602238ed1b4294b2648e3c20c175e51c98d94090929108ad5bf28",
+          "sha1": "86233712bb72f8eda865827c57bc6a7e3a5fa4d6",
+          "md5": "778fe972fe45ba24b67c53136e9022ac"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "lee.vioson",
+          "module": "lyftoast",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "lee.vioson",
+          "module": "uikit",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "lee.vioson",
+          "module": "commonutils",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-livedata",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.4.1"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-swiperefresh",
+          "version": {
+            "requires": "0.17.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-insets",
+          "version": {
+            "requires": "0.17.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-systemuicontroller",
+          "version": {
+            "requires": "0.17.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-pager",
+          "version": {
+            "requires": "0.17.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-pager-indicators",
+          "version": {
+            "requires": "0.17.0"
+          }
+        },
+        {
+          "group": "io.coil-kt",
+          "module": "coil-compose",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-fragment-ktx",
+          "version": {
+            "requires": "2.4.1"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-ui-ktx",
+          "version": {
+            "requires": "2.4.1"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.5.0-alpha03"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-navigation-animation",
+          "version": {
+            "requires": "0.16.1"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-dynamic-features-fragment",
+          "version": {
+            "requires": "2.4.1"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-preferences",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "io.github.shenzhen2017",
+          "module": "compose-refreshlayout",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.paging",
+          "module": "paging-runtime",
+          "version": {
+            "requires": "3.1.1"
+          }
+        },
+        {
+          "group": "androidx.paging",
+          "module": "paging-compose",
+          "version": {
+            "requires": "1.0.0-alpha14"
+          }
+        },
+        {
+          "group": "com.chargemap.compose",
+          "module": "numberpicker",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "composecommon-1.0.0.aar",
+          "url": "composecommon-1.0.0.aar",
+          "size": 588379,
+          "sha512": "7c9056863f48fa576388356db4298dd2f098594878da905472cfa1b49fbcf589514f7b436101b762817d35a5666f03cff4df244680e146326f4cb98b2787dd77",
+          "sha256": "72189ca00ab602238ed1b4294b2648e3c20c175e51c98d94090929108ad5bf28",
+          "sha1": "86233712bb72f8eda865827c57bc6a7e3a5fa4d6",
+          "md5": "778fe972fe45ba24b67c53136e9022ac"
+        }
+      ]
+    }
+  ]
+}
