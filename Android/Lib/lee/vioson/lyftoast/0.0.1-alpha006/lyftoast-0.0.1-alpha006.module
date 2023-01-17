@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "lee.vioson",
+    "module": "lyftoast",
+    "version": "0.0.1-alpha006",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lyftoast-0.0.1-alpha006.aar",
+          "url": "lyftoast-0.0.1-alpha006.aar",
+          "size": 25654,
+          "sha512": "d36607efa9bdf8d30e16adac4a976f1b96d47e635b638cae880b8ddc47ed5787de554002ee96403cada9131058862668e9bf945467b32d6f350f924133ba402e",
+          "sha256": "6777b63fc81cbd364c2fbec8772351d6fd69ff3584d0453bbd9b2f405333ebb4",
+          "sha1": "271ff7298bef5bf1c4972185dafdda22005aa4a4",
+          "md5": "51eee3b875e2db870a814d8546fda66c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lyftoast-0.0.1-alpha006.aar",
+          "url": "lyftoast-0.0.1-alpha006.aar",
+          "size": 25654,
+          "sha512": "d36607efa9bdf8d30e16adac4a976f1b96d47e635b638cae880b8ddc47ed5787de554002ee96403cada9131058862668e9bf945467b32d6f350f924133ba402e",
+          "sha256": "6777b63fc81cbd364c2fbec8772351d6fd69ff3584d0453bbd9b2f405333ebb4",
+          "sha1": "271ff7298bef5bf1c4972185dafdda22005aa4a4",
+          "md5": "51eee3b875e2db870a814d8546fda66c"
+        }
+      ]
+    }
+  ]
+}
