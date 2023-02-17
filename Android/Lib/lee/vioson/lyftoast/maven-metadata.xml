@@ -3,8 +3,8 @@
   <groupId>lee.vioson</groupId>
   <artifactId>lyftoast</artifactId>
   <versioning>
-    <latest>0.0.1-alpha007</latest>
-    <release>0.0.1-alpha007</release>
+    <latest>0.0.1-beta</latest>
+    <release>0.0.1-beta</release>
     <versions>
       <version>0.0.1-alpha001</version>
       <version>0.0.1-alpha002</version>
@@ -13,7 +13,8 @@
       <version>0.0.1-alpha005</version>
       <version>0.0.1-alpha006</version>
       <version>0.0.1-alpha007</version>
+      <version>0.0.1-beta</version>
     </versions>
-    <lastUpdated>20230117085100</lastUpdated>
+    <lastUpdated>20230217092658</lastUpdated>
   </versioning>
 </metadata>
