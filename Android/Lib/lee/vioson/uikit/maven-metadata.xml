@@ -3,13 +3,14 @@
   <groupId>lee.vioson</groupId>
   <artifactId>uikit</artifactId>
   <versioning>
-    <latest>0.0.1-alpha003</latest>
-    <release>0.0.1-alpha003</release>
+    <latest>0.0.1-beta</latest>
+    <release>0.0.1-beta</release>
     <versions>
       <version>0.0.1-alpha001</version>
       <version>0.0.1-alpha002</version>
       <version>0.0.1-alpha003</version>
+      <version>0.0.1-beta</version>
     </versions>
-    <lastUpdated>20230106072453</lastUpdated>
+    <lastUpdated>20230220025503</lastUpdated>
   </versioning>
 </metadata>
