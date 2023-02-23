@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>lee.maitarou</groupId>
+  <artifactId>radioscanner</artifactId>
+  <versioning>
+    <latest>0.0.1-beta</latest>
+    <release>0.0.1-beta</release>
+    <versions>
+      <version>0.0.1-beta</version>
+    </versions>
+    <lastUpdated>20230223022640</lastUpdated>
+  </versioning>
+</metadata>
