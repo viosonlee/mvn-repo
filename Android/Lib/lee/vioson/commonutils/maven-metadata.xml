@@ -3,14 +3,15 @@
   <groupId>lee.vioson</groupId>
   <artifactId>commonutils</artifactId>
   <versioning>
-    <latest>0.0.1-beta</latest>
-    <release>0.0.1-beta</release>
+    <latest>0.0.1-beta2</latest>
+    <release>0.0.1-beta2</release>
     <versions>
       <version>0.0.1-alpha001</version>
       <version>0.0.1-alpha002</version>
       <version>0.0.1-alpha003</version>
       <version>0.0.1-beta</version>
+      <version>0.0.1-beta2</version>
     </versions>
-    <lastUpdated>20230220025515</lastUpdated>
+    <lastUpdated>20230301075043</lastUpdated>
   </versioning>
 </metadata>
