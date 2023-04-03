@@ -35,11 +35,11 @@
         {
           "name": "commonutils-0.0.2.aar",
           "url": "commonutils-0.0.2.aar",
-          "size": 232947,
-          "sha512": "6458d0fd259fc04259a75a6ca9e3f9a122e457496b02614bb070486d8e5ef712b762a30e71b8dbdd636acca342ef18353ea472154ce62d56090b6a3e219a0f42",
-          "sha256": "21cbc4b32ca71c1baaacc5b031b957c0533d2dc7b70f4c177c7903191ec87762",
-          "sha1": "83b4732669fdc69fab0226fa23dcaa8b6ba4a900",
-          "md5": "b94a652b32841f98911046618de08a3c"
+          "size": 233266,
+          "sha512": "8591494a8c5e4893f69ecbee224f0eb6187e3ddce9e9f96c0020241937aeef7da421b3e4a3a15b69a0172e5d9e5bc3302dedea47da1d5e6c34319124db23487b",
+          "sha256": "3aa604d2f68b860027b43ec243f197f6412859b159dee5fa4e3eaecf9adbf869",
+          "sha1": "050ca7acc6e9ae809b88d20be9ec7c31e2a0fd8f",
+          "md5": "94ae86c3eda08afa9099fc6c6ad20511"
         }
       ]
     },
@@ -85,11 +85,11 @@
         {
           "name": "commonutils-0.0.2.aar",
           "url": "commonutils-0.0.2.aar",
-          "size": 232947,
-          "sha512": "6458d0fd259fc04259a75a6ca9e3f9a122e457496b02614bb070486d8e5ef712b762a30e71b8dbdd636acca342ef18353ea472154ce62d56090b6a3e219a0f42",
-          "sha256": "21cbc4b32ca71c1baaacc5b031b957c0533d2dc7b70f4c177c7903191ec87762",
-          "sha1": "83b4732669fdc69fab0226fa23dcaa8b6ba4a900",
-          "md5": "b94a652b32841f98911046618de08a3c"
+          "size": 233266,
+          "sha512": "8591494a8c5e4893f69ecbee224f0eb6187e3ddce9e9f96c0020241937aeef7da421b3e4a3a15b69a0172e5d9e5bc3302dedea47da1d5e6c34319124db23487b",
+          "sha256": "3aa604d2f68b860027b43ec243f197f6412859b159dee5fa4e3eaecf9adbf869",
+          "sha1": "050ca7acc6e9ae809b88d20be9ec7c31e2a0fd8f",
+          "md5": "94ae86c3eda08afa9099fc6c6ad20511"
         }
       ]
     }
