@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "lee.vioson",
+    "module": "uikit",
+    "version": "0.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.airbnb.android",
+          "module": "lottie",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uikit-0.0.5.aar",
+          "url": "uikit-0.0.5.aar",
+          "size": 20401,
+          "sha512": "f13071cad15917c63e148734f2ade4cc90124eeba6a72c2dc4f54825570f7e430633b5c39a5326db753a397a1ba272c002ffbeea32f004141a84d73deb65a119",
+          "sha256": "2768224725a7e5ecbd2b63a464fa14bc378819dfe12fd64e822f94b20fb60fba",
+          "sha1": "557a9b648789b15508384aef68f6c3f8bdfb907f",
+          "md5": "b1b2922259e218f0c251b7f8227387c7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.airbnb.android",
+          "module": "lottie",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uikit-0.0.5.aar",
+          "url": "uikit-0.0.5.aar",
+          "size": 20401,
+          "sha512": "f13071cad15917c63e148734f2ade4cc90124eeba6a72c2dc4f54825570f7e430633b5c39a5326db753a397a1ba272c002ffbeea32f004141a84d73deb65a119",
+          "sha256": "2768224725a7e5ecbd2b63a464fa14bc378819dfe12fd64e822f94b20fb60fba",
+          "sha1": "557a9b648789b15508384aef68f6c3f8bdfb907f",
+          "md5": "b1b2922259e218f0c251b7f8227387c7"
+        }
+      ]
+    }
+  ]
+}
