@@ -181,7 +181,7 @@
           "group": "com.google.accompanist",
           "module": "accompanist-navigation-animation",
           "version": {
-            "requires": "0.16.1"
+            "requires": "0.30.1"
           }
         },
         {
@@ -427,7 +427,7 @@
           "group": "com.google.accompanist",
           "module": "accompanist-navigation-animation",
           "version": {
-            "requires": "0.16.1"
+            "requires": "0.30.1"
           }
         },
         {
