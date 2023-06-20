@@ -3,8 +3,8 @@
   <groupId>lee.vioson</groupId>
   <artifactId>commonutils</artifactId>
   <versioning>
-    <latest>0.1.3</latest>
-    <release>0.1.3</release>
+    <latest>0.1.4</latest>
+    <release>0.1.4</release>
     <versions>
       <version>0.0.1-alpha001</version>
       <version>0.0.1-alpha002</version>
@@ -21,7 +21,8 @@
       <version>0.1.1</version>
       <version>0.1.2</version>
       <version>0.1.3</version>
+      <version>0.1.4</version>
     </versions>
-    <lastUpdated>20230610104301</lastUpdated>
+    <lastUpdated>20230620081852</lastUpdated>
   </versioning>
 </metadata>

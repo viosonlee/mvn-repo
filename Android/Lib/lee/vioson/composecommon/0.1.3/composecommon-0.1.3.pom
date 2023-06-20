@@ -123,7 +123,7 @@
     <dependency>
       <groupId>io.coil-kt</groupId>
       <artifactId>coil-compose</artifactId>
-      <version>1.4.0</version>
+      <version>2.4.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
