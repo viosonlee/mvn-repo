@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "lee.vioson",
+    "module": "commonutils",
+    "version": "0.0.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "commonutils-0.0.10.aar",
+          "url": "commonutils-0.0.10.aar",
+          "size": 237140,
+          "sha512": "9723e24a1177402d7c35f5939df51102796410c98e7ee63d0cda316588856fe6adf7b0c805266b13aaf96cb3afb847bf84523477912cdda2d87bb616a376930f",
+          "sha256": "a55a7e358e6fdc7f0578d6d05854db2ae82306cbf16950d00e36a081438b915f",
+          "sha1": "e00105aa0b51d6c0b7560cd234e3e8856f2d2ecc",
+          "md5": "bc4c7cb2fb5b7b0b865e28ee1f3be396"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "commonutils-0.0.10.aar",
+          "url": "commonutils-0.0.10.aar",
+          "size": 237140,
+          "sha512": "9723e24a1177402d7c35f5939df51102796410c98e7ee63d0cda316588856fe6adf7b0c805266b13aaf96cb3afb847bf84523477912cdda2d87bb616a376930f",
+          "sha256": "a55a7e358e6fdc7f0578d6d05854db2ae82306cbf16950d00e36a081438b915f",
+          "sha1": "e00105aa0b51d6c0b7560cd234e3e8856f2d2ecc",
+          "md5": "bc4c7cb2fb5b7b0b865e28ee1f3be396"
+        }
+      ]
+    }
+  ]
+}
