@@ -42,11 +42,11 @@
         {
           "name": "appinput-0.0.11.aar",
           "url": "appinput-0.0.11.aar",
-          "size": 28992,
-          "sha512": "44f5dbf483f58361cefcf6fd1f6d2287fe7a6b6661c756567f669353ef6b16250dc33e95840511d3bad6f335602ae6cf1124a9a6427ec02368a46ecfcb125c3f",
-          "sha256": "c2629307715e32409f5dc8b96b9f29f11450feaba96cbb038a77c6b5a11b18eb",
-          "sha1": "b2920970f9bbb4f91ec5dc7026178db39a5d261c",
-          "md5": "bb0238e5a44d64fa4f9bd8a21279084d"
+          "size": 30313,
+          "sha512": "20b49206cd7060c1b9746e91a1d426283c14a691c95c25644668077266fea46ef12c5bc8ff0601548e2dbbd8b39a690f3bb9f6fc1d121f6a452465fb66f8a411",
+          "sha256": "2f8b698bea6dafcddb7d888e9ce459c8fbeccb6e68e32ba5de9fed79e030a70f",
+          "sha1": "0dc1dfd3ee1221b2e4376bfb427b42bf94c9d15e",
+          "md5": "bcc08c3fdb11ad4e15b6c7c8fc1da310"
         }
       ]
     },
@@ -99,11 +99,11 @@
         {
           "name": "appinput-0.0.11.aar",
           "url": "appinput-0.0.11.aar",
-          "size": 28992,
-          "sha512": "44f5dbf483f58361cefcf6fd1f6d2287fe7a6b6661c756567f669353ef6b16250dc33e95840511d3bad6f335602ae6cf1124a9a6427ec02368a46ecfcb125c3f",
-          "sha256": "c2629307715e32409f5dc8b96b9f29f11450feaba96cbb038a77c6b5a11b18eb",
-          "sha1": "b2920970f9bbb4f91ec5dc7026178db39a5d261c",
-          "md5": "bb0238e5a44d64fa4f9bd8a21279084d"
+          "size": 30313,
+          "sha512": "20b49206cd7060c1b9746e91a1d426283c14a691c95c25644668077266fea46ef12c5bc8ff0601548e2dbbd8b39a690f3bb9f6fc1d121f6a452465fb66f8a411",
+          "sha256": "2f8b698bea6dafcddb7d888e9ce459c8fbeccb6e68e32ba5de9fed79e030a70f",
+          "sha1": "0dc1dfd3ee1221b2e4376bfb427b42bf94c9d15e",
+          "md5": "bcc08c3fdb11ad4e15b6c7c8fc1da310"
         }
       ]
     }
