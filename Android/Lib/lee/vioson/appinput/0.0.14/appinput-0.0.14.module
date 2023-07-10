@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "lee.vioson",
+    "module": "appinput",
+    "version": "0.0.14",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "appinput-0.0.14.aar",
+          "url": "appinput-0.0.14.aar",
+          "size": 47308,
+          "sha512": "40c4bb81adebdf35d339a0c3266f1bb57372c49bc047ab34decdcec81c032395434d76f6f5fad7e73421910c9b7e86e2ca97b32f250529b5c8c04b9b0ba11c74",
+          "sha256": "51a51661f9819beb30489f5667126899650d3030a7aba65b10335fed0f9fe6ca",
+          "sha1": "5db2d8aee7cc840d9b8b172d501602df82cf1bc5",
+          "md5": "cc70b49cdff11c0f41ea0b836a793a71"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "lee.vioson",
+          "module": "commonutils",
+          "version": {
+            "requires": "0.0.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "appinput-0.0.14.aar",
+          "url": "appinput-0.0.14.aar",
+          "size": 47308,
+          "sha512": "40c4bb81adebdf35d339a0c3266f1bb57372c49bc047ab34decdcec81c032395434d76f6f5fad7e73421910c9b7e86e2ca97b32f250529b5c8c04b9b0ba11c74",
+          "sha256": "51a51661f9819beb30489f5667126899650d3030a7aba65b10335fed0f9fe6ca",
+          "sha1": "5db2d8aee7cc840d9b8b172d501602df82cf1bc5",
+          "md5": "cc70b49cdff11c0f41ea0b836a793a71"
+        }
+      ]
+    }
+  ]
+}
