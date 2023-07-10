@@ -42,11 +42,11 @@
         {
           "name": "appinput-0.0.12.aar",
           "url": "appinput-0.0.12.aar",
-          "size": 46817,
-          "sha512": "88baa610f7c8c25f5cbeb31d2f076864d1123a8c1584bfdbeb4227f4f55464937fb0d488a8145f49b16faef471c4e6976d6352a586a337219a46688e36de9698",
-          "sha256": "3cc61a50ab1c432e02df560fd15b7130e895c3ce4366b3a3d5dffc6574e150de",
-          "sha1": "09711cdeaf614ebc510824c117c35cdbcb64da5a",
-          "md5": "46656cf2081989ebc500ac444cc243f7"
+          "size": 47026,
+          "sha512": "d004693817d804929c2d9ee3b8d435b9a467491cb2e537d114b2cef7ed4eec090a976ae00606c70ee19839a09ccc90560d2d57a7074ba1e07d7498fa70948ea3",
+          "sha256": "fcda67a83e4c648495366dae7b7885b33ea0087900f132ad413b64bf1c334eb1",
+          "sha1": "ffa64de0d22250031362de65b35439cbd8ff664e",
+          "md5": "19f3d5ccce774086a659b09467080410"
         }
       ]
     },
@@ -106,11 +106,11 @@
         {
           "name": "appinput-0.0.12.aar",
           "url": "appinput-0.0.12.aar",
-          "size": 46817,
-          "sha512": "88baa610f7c8c25f5cbeb31d2f076864d1123a8c1584bfdbeb4227f4f55464937fb0d488a8145f49b16faef471c4e6976d6352a586a337219a46688e36de9698",
-          "sha256": "3cc61a50ab1c432e02df560fd15b7130e895c3ce4366b3a3d5dffc6574e150de",
-          "sha1": "09711cdeaf614ebc510824c117c35cdbcb64da5a",
-          "md5": "46656cf2081989ebc500ac444cc243f7"
+          "size": 47026,
+          "sha512": "d004693817d804929c2d9ee3b8d435b9a467491cb2e537d114b2cef7ed4eec090a976ae00606c70ee19839a09ccc90560d2d57a7074ba1e07d7498fa70948ea3",
+          "sha256": "fcda67a83e4c648495366dae7b7885b33ea0087900f132ad413b64bf1c334eb1",
+          "sha1": "ffa64de0d22250031362de65b35439cbd8ff664e",
+          "md5": "19f3d5ccce774086a659b09467080410"
         }
       ]
     }
