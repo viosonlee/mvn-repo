@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "lee.maitarou",
+    "module": "radioscanner",
+    "version": "0.0.19",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "radioscanner-0.0.19.aar",
+          "url": "radioscanner-0.0.19.aar",
+          "size": 610216,
+          "sha512": "06557c4c36f478caa48bb9e63870d7326ccd9089ce74785d61b5d62b868b59176f89faf1c78b5f359fd1699931ada54a289f6ea1aaac2ebb5edf30047184f94a",
+          "sha256": "304280c62832ec1b350dd3632b019b4cf592829e331ab3822dd8eaf9ddd05776",
+          "sha1": "217d7ae37a87d2912cda674f06a66bf78f2f6376",
+          "md5": "f2e0173f11c8ad0a5f1dbf2d4f062b6f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common-java8",
+          "version": {
+            "requires": "2.5.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "radioscanner-0.0.19.aar",
+          "url": "radioscanner-0.0.19.aar",
+          "size": 610216,
+          "sha512": "06557c4c36f478caa48bb9e63870d7326ccd9089ce74785d61b5d62b868b59176f89faf1c78b5f359fd1699931ada54a289f6ea1aaac2ebb5edf30047184f94a",
+          "sha256": "304280c62832ec1b350dd3632b019b4cf592829e331ab3822dd8eaf9ddd05776",
+          "sha1": "217d7ae37a87d2912cda674f06a66bf78f2f6376",
+          "md5": "f2e0173f11c8ad0a5f1dbf2d4f062b6f"
+        }
+      ]
+    }
+  ]
+}
