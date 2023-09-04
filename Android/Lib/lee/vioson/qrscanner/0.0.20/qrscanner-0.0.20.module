@@ -1,0 +1,178 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "lee.vioson",
+    "module": "qrscanner",
+    "version": "0.0.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.bingoogolapple.BGAQRCode-Android",
+          "module": "zbar",
+          "version": {
+            "requires": "1.3.8"
+          }
+        },
+        {
+          "group": "com.github.bingoogolapple.BGAQRCode-Android",
+          "module": "zxing",
+          "version": {
+            "requires": "1.3.8"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "qrscanner-0.0.20.aar",
+          "url": "qrscanner-0.0.20.aar",
+          "size": 96420,
+          "sha512": "699245e317830ba89f832f41ad4ea6e5781fefee58ab195677a80379dffaa3a050614c02c3058d943cd7c81992a8fdc6e109ab100d3c211c1f8449ca41ba0478",
+          "sha256": "fd69eca9c20efb810ced3c7f408dd4ae0079a55ce5c38509fb4c73852be1ab1d",
+          "sha1": "4e8c3659842b425eb12c15646f8ef2c8723a4a87",
+          "md5": "0256c6abef20d6db328dd45d04934730"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.bingoogolapple.BGAQRCode-Android",
+          "module": "zbar",
+          "version": {
+            "requires": "1.3.8"
+          }
+        },
+        {
+          "group": "com.github.bingoogolapple.BGAQRCode-Android",
+          "module": "zxing",
+          "version": {
+            "requires": "1.3.8"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "1.6.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "lee.vioson",
+          "module": "lyftoast",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "lee.vioson",
+          "module": "commonutils",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "com.airbnb.android",
+          "module": "lottie",
+          "version": {
+            "requires": "4.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "qrscanner-0.0.20.aar",
+          "url": "qrscanner-0.0.20.aar",
+          "size": 96420,
+          "sha512": "699245e317830ba89f832f41ad4ea6e5781fefee58ab195677a80379dffaa3a050614c02c3058d943cd7c81992a8fdc6e109ab100d3c211c1f8449ca41ba0478",
+          "sha256": "fd69eca9c20efb810ced3c7f408dd4ae0079a55ce5c38509fb4c73852be1ab1d",
+          "sha1": "4e8c3659842b425eb12c15646f8ef2c8723a4a87",
+          "md5": "0256c6abef20d6db328dd45d04934730"
+        }
+      ]
+    }
+  ]
+}
