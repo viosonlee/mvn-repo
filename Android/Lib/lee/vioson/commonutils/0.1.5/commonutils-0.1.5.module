@@ -35,11 +35,11 @@
         {
           "name": "commonutils-0.1.5.aar",
           "url": "commonutils-0.1.5.aar",
-          "size": 236770,
-          "sha512": "7b0bd3e6c4f62fe4fa6bc825d8a2b6a305deed162f382fa8d26b82b53ee99dfc07a542e3dd4f328ba655e4f39f68a34760c3326d5ca75ee56b607503c01b9e86",
-          "sha256": "ec107cbe4a9f022cbbb09a399a639cea362eb193a1ab5701eab1d67cfbe01c0f",
-          "sha1": "d1e1307b76eda7cc1023ce1ca3c918d42f33cd3b",
-          "md5": "f07f533fd5c353c2ad5a216cd605e756"
+          "size": 236663,
+          "sha512": "8e0934cd1cec5917629b460fd6f261598bfeca590f107cf774fc550adfd1b3b1bcf063aa6a44b00ac2b4793757946a03667d773a491976efe0000b07be21c323",
+          "sha256": "82cf37115d91e0d39a6bb39be90fbbb61b835fbb5524b80709e57a9f6e5af267",
+          "sha1": "7356274e61673ecd1fe70a23160e97a8b4aab45b",
+          "md5": "008e314e811365f604ff0f9ed28ccfe7"
         }
       ]
     },
@@ -85,11 +85,11 @@
         {
           "name": "commonutils-0.1.5.aar",
           "url": "commonutils-0.1.5.aar",
-          "size": 236770,
-          "sha512": "7b0bd3e6c4f62fe4fa6bc825d8a2b6a305deed162f382fa8d26b82b53ee99dfc07a542e3dd4f328ba655e4f39f68a34760c3326d5ca75ee56b607503c01b9e86",
-          "sha256": "ec107cbe4a9f022cbbb09a399a639cea362eb193a1ab5701eab1d67cfbe01c0f",
-          "sha1": "d1e1307b76eda7cc1023ce1ca3c918d42f33cd3b",
-          "md5": "f07f533fd5c353c2ad5a216cd605e756"
+          "size": 236663,
+          "sha512": "8e0934cd1cec5917629b460fd6f261598bfeca590f107cf774fc550adfd1b3b1bcf063aa6a44b00ac2b4793757946a03667d773a491976efe0000b07be21c323",
+          "sha256": "82cf37115d91e0d39a6bb39be90fbbb61b835fbb5524b80709e57a9f6e5af267",
+          "sha1": "7356274e61673ecd1fe70a23160e97a8b4aab45b",
+          "md5": "008e314e811365f604ff0f9ed28ccfe7"
         }
       ]
     }
